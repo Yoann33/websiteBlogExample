@@ -1,0 +1,146 @@
+body, html
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.top-bar
+{
+    background: white;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+
+.top-bar .nav-bar
+{
+    padding: 30px;
+    float: left;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    opacity: 0.4;
+}
+
+.nav-bar a:hover
+{
+    opacity: 1;
+}
+
+.social
+{
+    padding: 30px;
+    float: right;
+}
+
+.social a
+{
+    padding: 5px 15px;
+    opacity: 0.4;
+}
+
+.social a:hover
+{
+    opacity: 1;
+}
+
+.banner
+{
+    width: 100%;
+    height: 500px;
+    background: no-repeat center center / cover url("footing.jpg");
+}
+
+.main
+{
+    float: left;
+    width: calc(100% - 300px);
+}
+
+.article
+{
+    position: relative;
+    margin: 50px;
+    padding: 1px;
+    min-height: 350px;
+}
+
+.article .publication-date
+{
+    opacity: 0.5;
+}
+
+.article a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.article a:hover
+{
+    text-decoration: underline;
+}
+
+.article-img
+{
+    left: 0;
+    top: 0;
+    width: 500px;
+    position: absolute;
+}
+
+.article-img img
+{
+    width: 100%;
+}
+
+.article-content
+{
+    margin-left: 530px;
+}
+
+.aside
+{
+    float: right;
+    width: 300px;
+    background: rgb(241, 241, 241);
+    height: 134vh;
+}
+
+.listing
+{
+    margin-left: 30px;
+}
+
+.listing li
+{
+    list-style: none;
+}
+
+.listing a
+{
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+}
+
+.listing a:hover
+{
+    opacity: 1;
+}
+
+.listing ul
+{
+    padding: 0;
+}
+
+hr
+{
+    margin: 0;
+}
