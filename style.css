@@ -57,22 +57,34 @@ body, html
     background: no-repeat center center / cover url("footing.jpg");
 }
 
+.body-middle-content
+{
+    display: flex;
+}
+
 .main
 {
-    float: left;
     width: calc(100% - 300px);
+    box-shadow: -4px 0px 10px black;
+    z-index: 2;
+}
+
+.article-container
+{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .article
 {
     position: relative;
-    margin: 50px;
-    padding: 1px;
-    min-height: 350px;
+    min-height: 250px;
+    margin: 50px 0;
 }
 
 .article .publication-date
 {
+    margin: 0;
     opacity: 0.5;
 }
 
@@ -91,7 +103,7 @@ body, html
 {
     left: 0;
     top: 0;
-    width: 500px;
+    width: 300px;
     position: absolute;
 }
 
@@ -102,15 +114,21 @@ body, html
 
 .article-content
 {
-    margin-left: 530px;
+    top: 0;
+    margin-left: 330px;
+}
+
+.article-content h4
+{
+    margin: 10px 0;
 }
 
 .aside
 {
-    float: right;
     width: 300px;
     background: rgb(241, 241, 241);
     height: 134vh;
+    z-index: 1;
 }
 
 .listing
@@ -127,6 +145,7 @@ body, html
 {
     text-decoration: none;
     color: black;
+    padding: 4px 0;
     opacity: 0.4;
 }
 
